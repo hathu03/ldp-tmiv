@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Regular";
+  src: url("../../../fonts/new-june/NewJuneBook.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Medium";
+  src: url("../../../fonts/new-june/NewJuneMedium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Semibold";
+  src: url("../../../fonts/new-june/NewJuneSemibold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bold";
+  src: url("../../../fonts/new-june/NewJuneBold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Light";
+  src: url("../../../fonts/new-june/NewJuneLight.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=font_en.css.map */
