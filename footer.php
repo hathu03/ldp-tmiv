@@ -58,14 +58,6 @@
     </div>
 </footer>
 <script>
-//js aos xu ly hieu ung
-AOS.init({
-    offset: 120,
-    delay: 0,
-    duration: 1500,
-    once: true,
-    disable: 'mobile',
-});
 jQuery(document).ready(function($) {
     $(".top ._item .wrap ul li a").click(function(event) {
         event.preventDefault();

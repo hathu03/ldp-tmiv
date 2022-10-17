@@ -237,7 +237,7 @@
 </section>
 
 
-<script>
+<script type="text/javascript">
 jQuery(document).ready(function($) {
 
 

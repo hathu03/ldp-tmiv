@@ -60,7 +60,8 @@
                             Chứng từ chứng minh tổn thất quy định theo từng loại cụ thể
                             (liên hệ Hotline hỗ trợ du lịch của đơn vị bảo lãnh và xử lý bồi thường:
                             <a href="tel:+842838212108"><strong>+84 28 3821 2108 </strong></a> hoặc email: <a
-                                href=""><strong> travelmate-assistance@pacificcross.com.vn </strong></a>
+                                href="mailto:travelmate-assistance@pacificcross.com.vn"><strong>
+                                    travelmate-assistance@pacificcross.com.vn </strong></a>
                             để biết thêm chi tiết)
                         </li>
                     </ul>
@@ -90,8 +91,10 @@
                         Lầu 19, 9 Đào Duy Anh, Q. Đống Đa, Hà Nội
                     </p>
                     <p>
-                        Hotline hỗ trợ du lịch của đơn vị bảo lãnh và xử lý bồi thường: <a href="">+84 28 3821 2108</a>
-                        Email: <a href="">travelmate-assistance@pacificcross.com.vn</a>
+                        Hotline hỗ trợ du lịch của đơn vị bảo lãnh và xử lý bồi thường: <a
+                            href="tel:+842838212108"><strong> +84 28 3821 2108</strong></a>
+                        Email: <a href="mailto:travelmate-assistance@pacificcross.com.vn"><strong>
+                                travelmate-assistance@pacificcross.com.vn</strong></a>
                     </p>
                 </div>
             </div>
