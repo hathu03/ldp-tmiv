@@ -4,6 +4,9 @@
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
+  @include mediaMaxWidth(576px) {
+    display: none;
+  }
   .main_logo_menu {
     width: percentage($number: 216/1360);
   }
@@ -46,13 +49,16 @@
   background: #fff;
   display: none;
   padding: 8px 0;
-  @include mediaMaxWidth(768px) {
+  @include mediaMaxWidth(576px) {
     display: block;
   }
   img {
-    @include mediaMaxWidth(480px) {
-      width: 155px;
+    @include mediaMaxWidth(576px) {
+      width: 140px;
     }
+    // @include mediaMaxWidth(480px) {
+    //   width: 155px;
+    // }
   }
 }
 ._coating_mobile {

@@ -3,8 +3,7 @@
 }
 @media only screen and (max-width: 576px) {
   .ldp-section1 ._wrap_sec1 .banner {
-    width: 780px;
-    height: 300px;
+    height: 230px;
   }
 }
 @media only screen and (max-width: 425px) {
@@ -68,6 +67,12 @@
   .ldp-section1 ._wrap_sec1 .description .label {
     font-size: 22px;
     line-height: 30px;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .ldp-section1 ._wrap_sec1 .description .label {
+    font-size: 20px;
+    letter-spacing: -0.03rem;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -153,13 +158,24 @@
 }
 @media only screen and (max-width: 1024px) {
   .ldp-section1 ._wrap_sec1 .description .buy_now {
-    font-size: 12px;
-    padding: 7px 25px;
+    width: 155px;
+    height: 40px;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .ldp-section1 ._wrap_sec1 .description .buy_now {
+    font-size: 10px;
+    width: 110px;
+    line-height: 14px;
+    height: 30px;
   }
 }
 @media only screen and (max-width: 576px) {
   .ldp-section1 ._wrap_sec1 .description .buy_now {
     font-size: 10px;
+    width: 110px;
+    line-height: 14px;
+    height: 30px;
   }
 }
 
@@ -306,18 +322,29 @@
   transition: all 0.3s;
 }
 .ldp-section2 .wrap_sec2 .top .logo_buynow {
-  position: absolute;
-  top: 75px;
-  right: 0;
+  position: fixed;
+  top: 85%;
+  right: 5%;
+  z-index: 2;
   transition: all 0.5s;
 }
 .ldp-section2 .wrap_sec2 .top .logo_buynow:hover {
   transform: scale(1.1);
   transition: all 0.5s;
 }
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 1440px) {
   .ldp-section2 .wrap_sec2 .top .logo_buynow {
-    top: 50px;
+    top: 75%;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .ldp-section2 .wrap_sec2 .top .logo_buynow {
+    top: 30%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .ldp-section2 .wrap_sec2 .top .logo_buynow {
+    top: 35%;
   }
 }
 @media only screen and (max-width: 680px) {
@@ -330,11 +357,6 @@
   .ldp-section2 .wrap_sec2 .top .logo_buynow svg {
     width: 40px;
     height: 40px;
-  }
-}
-@media only screen and (max-width: 576px) {
-  .ldp-section2 .wrap_sec2 .top .logo_buynow {
-    top: 30px;
   }
 }
 .ldp-section2 .wrap_sec2 .bottom {
@@ -1507,6 +1529,11 @@
   flex-direction: row;
   justify-content: space-between;
 }
+@media only screen and (max-width: 576px) {
+  .wrap_menu {
+    display: none;
+  }
+}
 .wrap_menu .main_logo_menu {
   width: 15.8823529412%;
 }
@@ -1558,14 +1585,14 @@
   display: none;
   padding: 8px 0;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 576px) {
   .logo_mobile {
     display: block;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 576px) {
   .logo_mobile img {
-    width: 155px;
+    width: 140px;
   }
 }
 
@@ -1608,16 +1635,6 @@
 .footer h3,
 .footer h4 {
   margin-bottom: 0;
-}
-@media only screen and (max-width: 768px) {
-  .footer {
-    margin-bottom: 80px;
-  }
-}
-@media only screen and (max-width: 480px) {
-  .footer {
-    margin-bottom: 55px;
-  }
 }
 .footer .nav_wrap {
   padding: 0 2.5735294118% 0 5.8823529412%;

@@ -19,12 +19,12 @@
   h4 {
     margin-bottom: 0;
   }
-  @include mediaMaxWidth(768px) {
-    margin-bottom: 80px;
-  }
-  @include mediaMaxWidth(480px) {
-    margin-bottom: 55px;
-  }
+  // @include mediaMaxWidth(768px) {
+  //   margin-bottom: 80px;
+  // }
+  // @include mediaMaxWidth(480px) {
+  //   margin-bottom: 55px;
+  // }
   .nav_wrap {
     padding: 0 percentage(35/1360) 0 percentage(80/1360);
     display: flex;

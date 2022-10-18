@@ -3,8 +3,8 @@
     position: relative;
     .banner {
       @include mediaMaxWidth(576px) {
-        width: 780px;
-        height: 300px;
+        // width: 780px;
+        height: 230px;
       }
       @include mediaMaxWidth(425px) {
         // width: 500px;
@@ -52,6 +52,10 @@
         @include mediaMaxWidth(1024px) {
           font-size: 22px;
           line-height: 30px;
+        }
+        @include mediaMaxWidth(820px) {
+          font-size: 20px;
+          letter-spacing: -0.03rem;
         }
         @include mediaMaxWidth(576px) {
           font-size: 18px;
@@ -125,11 +129,20 @@
           }
         }
         @include mediaMaxWidth(1024px) {
-          font-size: 12px;
-          padding: 7px 25px;
+          width: 155px;
+          height: 40px;
+        }
+        @include mediaMaxWidth(820px) {
+          font-size: 10px;
+          width: 110px;
+          line-height: 14px;
+          height: 30px;
         }
         @include mediaMaxWidth(576px) {
           font-size: 10px;
+          width: 110px;
+          line-height: 14px;
+          height: 30px;
         }
       }
     }
@@ -249,17 +262,27 @@
         }
       }
       .logo_buynow {
-        position: absolute;
-        top: 75px;
-        right: 0;
+        position: fixed;
+        top: 85%;
+        right: 5%;
+        z-index: 2;
         transition: all 0.5s;
         &:hover {
           transform: scale(1.1);
           transition: all 0.5s;
         }
-        @include mediaMaxWidth(680px) {
-          top: 50px;
+        @include mediaMaxWidth(1440px) {
+          top: 75%;
         }
+        @include mediaMaxWidth(820px) {
+          top: 30%;
+        }
+        @include mediaMaxWidth(768px) {
+          top: 35%;
+        }
+        // @include mediaMaxWidth(576px) {
+        //   top: 35%;
+        // }
         svg {
           @include mediaMaxWidth(680px) {
             width: 60px;
@@ -269,9 +292,6 @@
             width: 40px;
             height: 40px;
           }
-        }
-        @include mediaMaxWidth(576px) {
-          top: 30px;
         }
       }
     }
