@@ -1,8 +1,8 @@
 </body>
 <footer>
-   <div style="width: 100%; max-width: 1280px;display:flex; flex-direction: row; padding-left: 1.25rem; padding-right: 1.25rem; align-items: flex-start; margin-left: auto; margin-right: auto;">
-		<div style="text-align: left; padding-right: 5rem;display: flex; flex-grow: 1; flex-wrap: wrap; margin-bottom: -2.5rem;">
-			<div style="width: 50%; padding-left: 1rem; padding-right: 1rem;">
+   <div style="width: 100%; max-width: 1280px;display:flex; padding-left: 1.25rem; padding-right: 1.25rem; align-items: flex-start; margin-left: auto; margin-right: auto;" class="songhanfooter">
+		<div style="display: flex; flex-grow: 1; flex-wrap: wrap; margin-bottom: -2.5rem;" class="left-side">
+			<div style="padding-left: 1rem; padding-right: 1rem;" class="left-side-each-box">
 				<h4 style="--tw-text-opacity: 1; color: rgb(17 24 39 / var(--tw-text-opacity)); letter-spacing: 0.1em; font-weight: 700; font-size: 0.875rem; line-height: 1.25rem; margin-bottom: 0.75rem;">CÔNG TY TNHH TM DU LỊCH VÀ DỊCH VỤ SÔNG HÀN - CHI NHÁNH TP.HCM</h4>
 				<nav style="list-style-type: none; margin-bottom: 2.5rem; --tw-text-opacity: 1; color: rgb(17 24 39 / var(--tw-text-opacity));">
 					<ul>
@@ -18,7 +18,7 @@
 					</ul>
 				</nav>
 			</div>
-			<div style="width: 50%; padding-left: 1rem; padding-right: 1rem;">
+			<div style="padding-left: 1rem; padding-right: 1rem;" class="left-side-each-box">
 				<h4 style="--tw-text-opacity: 1; color: rgb(17 24 39 / var(--tw-text-opacity)); letter-spacing: 0.1em; font-weight: 700; font-size: 0.875rem; line-height: 1.25rem; margin-bottom: 0.75rem;">CÔNG TY TNHH TM DU LỊCH VÀ DỊCH VỤ SÔNG HÀN TẠI HÀ NỘI</h4>
 				<nav style="list-style-type: none; margin-bottom: 2.5rem; --tw-text-opacity: 1; color: rgb(17 24 39 / var(--tw-text-opacity));">
 					<ul>
@@ -35,6 +35,6 @@
 				</nav>
 			</div>
 		</div>
-    <div style="background: url(./assets/images/home/logo.png) top left no-repeat; background-size: contain; width: 16rem; height: 2.5rem; flex-shrink: 0;"></div>
+    <div style="background: url(./assets/images/home/logo.png) top left no-repeat; background-size: contain; width: 16rem; height: 2.5rem; flex-shrink: 0;" class="right-side"></div>
 	</div>
 </footer>
